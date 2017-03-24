@@ -1,5 +1,5 @@
 #!/bin/bash
-# Adi Iacob
+# Adi
 # Backup rotation
 
 # Storage folder where to move backup files

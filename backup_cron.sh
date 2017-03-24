@@ -1,5 +1,5 @@
 #!/bin/bash
-#@author Adi Iacob
+#@author kharloss
 #@description Backup script 
 
 BACKUP_DIR=/backup
