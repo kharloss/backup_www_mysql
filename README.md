@@ -10,7 +10,7 @@ drwxr-xr-x  4 root root 4096 Apr  1 06:29 backup.monthly
 drwxr-xr-x 10 root root 4096 Apr 20 06:38 backup.weekly
 drwxr-xr-x  2 root root 4096 Apr 23 06:44 incoming
 
-Files:
+Add this Files to a custom folder:
 -rwxr-x---  1 root root 1386 Feb 21 11:53 backup.sh
 -rwxr-x---  1 root root 1386 Feb 21 11:53 backup_cron.sh
 
