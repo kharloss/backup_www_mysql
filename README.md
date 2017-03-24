@@ -1,6 +1,6 @@
 # backup_www_mysql
 bash backup mysql and files
-via original post : https://nicaw.wordpress.com/2013/04/18/bash-backup-rotation-script/
+@ credits: nicaw via original post : https://nicaw.wordpress.com/2013/04/18/bash-backup-rotation-script/
 
 This folder structure has to be created manually. Rotation script will take anything in incomming folder and move it to appropriate destination backup archive.
 
@@ -17,8 +17,7 @@ Files:
 Please note – only file rotation is performed, it is up to you to copy your backup to source folder (incoming). For faster operations, files are moved from the source folder! Here is what I use on one of the servers, to backup entire website:
 
 use crontab -e 
-to add cron schedules like
+to add cron schedule:
 
-30 0 * * *   /backup/backup.sh
-45 0 * * *   /backup/backup_cron.sh
+30 0 * * *   /backup/backup_cron.sh
 
